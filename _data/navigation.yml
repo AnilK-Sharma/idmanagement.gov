@@ -84,11 +84,15 @@ university:
     href: /university/policymap/
 
 experiments:
+  - text: Introduction
+    href: /experiments/     
   - text: Identity Fraud Detection
     href: /experiments/idfraud/
-  # - text: Identity Fraud Detection
-  #   href: /experiments/idfraud/
+  # - text: 
+  #   href: 
 
+ - name: Introduction
+        url: /experiments/
 playbooks:
   - text: Introduction
     href: /playbooks/

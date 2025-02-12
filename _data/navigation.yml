@@ -84,7 +84,7 @@ university:
     href: /university/policymap/
 
 experiments:
-  - text: Introduction
+  - text: Experiments
     href: /experiments/     
   - text: Identity Fraud Detection
     href: /experiments/idfraud/

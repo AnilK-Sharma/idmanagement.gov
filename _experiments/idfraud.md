@@ -38,6 +38,15 @@ subnav:
     href: '#appendix-d-acronyms'
 
 ---
+<style>
+gsa-figcaption {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 10pt;
+}
+</style>
 
 This playbook is a collaboration between the Federal Chief Information Security Officer Council Identity, Credential, and Access Management Subcommittee and the Digital Identity Community of Practice, and the DOD DARPA SemaFor Program team. For additional context and to request a conversation or demo of the tools mentioned within this document please contact [icam@gsa.gov](mailto:icam@gsa.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
@@ -278,7 +287,7 @@ Analytics, developed during the DARPA SemaFor program, analyze the image and pro
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.">
-  <figcaption style="padding: 10px;font-size:9pt;">Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
+  <figcaption class="gsa-figcaption">Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
 </figure>
 
 **Scenario 2 - Audio**
@@ -291,7 +300,7 @@ Analytics, developed during the DARPA SemaFor program, analyze the audio and pro
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure3-audio.jpg" alt="The Collections page of the SemaFor interface, showing the analyst’s individual collections of media.">
-  <figcaption>The Collections page of the SemaFor interface, showing the analyst’s individual collections of media.</figcaption>
+  <figcaption class="gsa-figcaption">The Collections page of the SemaFor interface, showing the analyst’s individual collections of media.</figcaption>
 </figure>
 
 OR
@@ -302,7 +311,7 @@ Multiple analytics analyze the audio and provide findings of generated audio, al
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identifi ed as manipulated in the analysis.">
-  <figcaption>Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identifi ed as manipulated in the analysis.</figcaption>
+  <figcaption class="gsa-figcaption">Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identifi ed as manipulated in the analysis.</figcaption>
 </figure>
 
 
@@ -318,7 +327,7 @@ Analytics process both the audio track and video tracks for semantic consistency
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identifi ed as a deepfake with an analytic runtime of approximately two minutes.">
-  <figcaption>The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identifi ed as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
+  <figcaption class="gsa-figcaption">The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identifi ed as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
 </figure>
 
 **Deepfake Scenario Impacts for Image, Audio, Video**
@@ -339,7 +348,7 @@ The Identity Fraud Detection Steps framework provides a comprehensive guide for 
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure6-identity-fraud-destection-steps.jpg" alt="This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.">
-  <figcaption>This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.</figcaption>
+  <figcaption class="gsa-figcaption">This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.</figcaption>
 </figure>
 
 ## Step 0 - Establishing a Resilient Infrastructure
@@ -415,7 +424,7 @@ Upon detecting identity fraud, including incidents involving deepfakes, governme
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure7-mitigation-by-phase-structure.jpg" alt="This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.">
-  <figcaption>This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.</figcaption>
+  <figcaption class="gsa-figcaption">This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.</figcaption>
 </figure>
 
 **Immediate Response** - Agencies should quickly disable affected accounts and access points to prevent further fraudulent activities, as well as notify internal and external stakeholders, including cybersecurity teams and law enforcement, to begin an urgent response. Additionally, agencies should apply system hardening techniques such as network segmentation to isolate compromised systems, and deploy immediate countermeasures against deepfake threats, such as using real-time video authentication tools.

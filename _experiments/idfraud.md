@@ -123,8 +123,6 @@ These are key terms used throughout this document
 
 The primary audience for this playbook are agency digital identity and security program managers. Table 1 lists stakeholders and stakeholder types digital identity program managers engage with during identity fraud prevention, detection and mitigation. An internal stakeholder is within the agency and external stakeholders are outside the agency.
 
-**Table 1: Stakeholder Table**
-
 
 <table class="usa-table">
 <caption>Table 1: Stakeholder Table</caption>
@@ -280,7 +278,7 @@ Analytics, developed during the DARPA SemaFor program, analyze the image and pro
 
 <figure>
   <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.">
-  <figcaption>Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
+  <figcaption style="padding: 10px;font-size:9pt;">Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
 </figure>
 
 **Scenario 2 - Audio**

@@ -44,7 +44,7 @@ gsa-figcaption {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 10px;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 </style>
 

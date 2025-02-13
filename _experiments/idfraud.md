@@ -41,6 +41,8 @@ subnav:
 
 This playbook is a collaboration between the Federal Chief Information Security Officer Council Identity, Credential, and Access Management Subcommittee and the Digital Identity Community of Practice, and the DOD DARPA SemaFor Program team. For additional context and to request a conversation or demo of the tools mentioned within this document please contact [icam@gsa.gov](mailto:icam@gsa.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
+<br/>
+
 <div class="usa-accordion usa-accordion--bordered">
   <h4 class="usa-accordion__heading">
     <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="v-a1">

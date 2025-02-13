@@ -38,8 +38,9 @@ subnav:
     href: '#appendix-d-acronyms'
 
 ---
+
 <style>
-gsa-figcaption {
+.gsa-figcaption {
   padding: 10px;
   font-size: 9pt;
 }

@@ -118,11 +118,13 @@ These are key terms used throughout this document
 - [Social Engineering](https://csrc.nist.gov/glossary/term/social_engineering){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - An attempt to trick someone into revealing information (e.g., a password) that can be used to attack systems or networks.
 - [Synthetic Media](https://www.techuk.org/resource/synthetic-media-what-are-they-and-how-are-techuk-members-taking-steps-to-tackle-misinformation-and-fraud.html){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Synthetic Media is an all encompassing term to describe any type of content whether video, image, text or voice that has been partially or fully generated using artificial intelligence or machine learning.
 
+
 ## Audience
 
 The primary audience for this playbook are agency digital identity and security program managers. Table 1 lists stakeholders and stakeholder types digital identity program managers engage with during identity fraud prevention, detection and mitigation. An internal stakeholder is within the agency and external stakeholders are outside the agency.
 
 **Table 1: Stakeholder Table**
+
 
 <table class="usa-table">
 <caption>Table 1: Stakeholder Table</caption>
@@ -131,7 +133,7 @@ The primary audience for this playbook are agency digital identity and security 
     <th scope="col" id="stakeholder">Stakeholder</th>
     <th scope="col" id="stakeholder-type">Stakeholder Type</th>
   </tr>
-<thead>
+</thead>
 <tbody>
 <tr>
   <th scope="row" headers="stakeholder">Digital Identity and Security Program Managers</th>
@@ -163,6 +165,7 @@ The primary audience for this playbook are agency digital identity and security 
 </tr>
 </tbody>
 </table>
+
 
 ## Disclaimer
 

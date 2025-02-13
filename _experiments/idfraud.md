@@ -12,6 +12,31 @@ version: 1.0
 subnav:
   # - text: Introduction
   #   href: '#introduction'
+  - text: Version Control
+    href: '#version-control'
+  - text: Acknowledgments
+    href: '#acknowledgments'
+  - text: Executive Summary
+    href: '#executive-summary'
+  - text: Identity Fraud 101
+    href: '#identity-fraud-101'
+  - text: Effects of Identity Fraud
+    href: '#effects-of-Identity-Fraud'
+  - text: Use Cases
+    href: '#use-cases' 
+  - text: Identity Fraud Detection Steps
+    href: '#identity-fraud-detection-steps'
+  - text: Summary
+    href: '#summary'
+  - text: Appendix A. Policies, Standards, and Guidance
+    href: '#appendix-a-policies-standards-and-guidance'
+  - text: Appendix B. Outside References
+    href: '#appendix-b-outside-references'
+  - text: Appendix C. Overview of GAO’s A Framework for Managing Fraud Risks in Federal Programs
+    href: '#appendix-c-overview-of-gaos-a-framework-for-managing-fraud-risks-in-federal-programs'
+  - text: Appendix D. Acronyms
+    href: '#appendix-d-acronyms'
+
 ---
 
 This playbook is a collaboration between the Federal Chief Information Security Officer Council Identity, Credential, and Access Management Subcommittee and the Digital Identity Community of Practice, and the DOD DARPA SemaFor Program team. For additional context and to request a conversation or demo of the tools mentioned within this document please contact [icam@gsa.gov](mailto:icam@gsa.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.

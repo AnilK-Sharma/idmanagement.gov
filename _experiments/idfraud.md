@@ -40,10 +40,7 @@ subnav:
 ---
 <style>
 gsa-figcaption {
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding: 10px;
   font-size: 9pt;
 }
 </style>

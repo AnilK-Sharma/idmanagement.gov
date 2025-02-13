@@ -51,7 +51,7 @@ This playbook is a collaboration between the Federal Chief Information Security 
   </h4>
   <div id="v-a1" class="usa-accordion__content usa-prose">
     <table>
-      <caption>Phishing-resistant authenticator version table</caption>
+      <caption>Identity Fraud Detection Playbook version table</caption>
       <thead>
       <tr>
         <th scope='col'>Version Number</th>

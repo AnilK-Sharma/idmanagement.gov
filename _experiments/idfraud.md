@@ -20,6 +20,8 @@ subnav:
     href: '#executive-summary'
   - text: Identity Fraud 101
     href: '#identity-fraud-101'
+  - text: Effects of Identity Fraud
+    href: '#effects-of-identity-fraud'
   - text: Fraud Detection Capabilities
     href: '#fraud-detection-capabilities'
   - text: Effects of Identity Fraud
@@ -237,7 +239,7 @@ In today's interconnected digital world, identity fraud has become increasingly 
   - **Mechanism** - Fraudsters use audio deepfake technology to replicate the voice of a trusted individual, such as a company executive or a bank representative. They then make vishing calls using spoofed caller IDs, convincing the target to share confidential information or authorize fraudulent activities.
   - **Impact** - The use of deepfake audio adds realism to vishing attacks and increases their success rate dramatically, making it more likely for victims to fall for the scam and divulge critical information.
 
-### Effects of Identity Fraud
+## Effects of Identity Fraud
 
 - **Fraud Technique** - Forgery - Document and Credential Falsification
   - **Scalability**

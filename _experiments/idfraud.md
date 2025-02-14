@@ -12,8 +12,6 @@ version: 1.0
 subnav:
   # - text: Introduction
   #   href: '#introduction'
-  - text: Version Control
-    href: '#version-control'
   - text: Acknowledgments
     href: '#acknowledgments'
   - text: Executive Summary

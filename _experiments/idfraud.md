@@ -22,10 +22,6 @@ subnav:
     href: '#effects-of-identity-fraud'
   - text: Fraud Detection Capabilities
     href: '#fraud-detection-capabilities'
-  - text: Effects of Identity Fraud
-    href: '#effects-of-Identity-Fraud'
-  - text: Use Cases
-    href: '#use-cases' 
   - text: Identity Fraud Detection Steps
     href: '#identity-fraud-detection-steps'
   - text: Conclusion

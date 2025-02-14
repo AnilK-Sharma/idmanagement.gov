@@ -40,9 +40,12 @@ subnav:
 ---
 
 <style>
+/* Style for figcaptions below images */
 .gsa-figcaption {
   padding: 10px;
-  font-size: 9pt;
+  font-size: 10pt;
+  font-style: oblique;
+  font-weight: bold;
 }
 </style>
 

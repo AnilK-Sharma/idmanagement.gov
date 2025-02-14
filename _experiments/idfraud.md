@@ -20,22 +20,24 @@ subnav:
     href: '#executive-summary'
   - text: Identity Fraud 101
     href: '#identity-fraud-101'
+  - text: Fraud Detection Capabilities
+    href: '#fraud-detection-capabilities'
   - text: Effects of Identity Fraud
     href: '#effects-of-Identity-Fraud'
   - text: Use Cases
     href: '#use-cases' 
   - text: Identity Fraud Detection Steps
     href: '#identity-fraud-detection-steps'
-  - text: Summary
-    href: '#summary'
+  - text: Conclusion
+    href: '#conclusion'
   - text: Appendix A. Policies, Standards, and Guidance
-    href: '#appendix-a-policies-standards-and-guidance'
+    href: '#appendix-a---policies-standards-and-guidance'
   - text: Appendix B. Outside References
-    href: '#appendix-b-outside-references'
+    href: '#appendix-b---outside-references'
   - text: Appendix C. Overview of GAO’s A Framework for Managing Fraud Risks in Federal Programs
-    href: '#appendix-c-overview-of-gaos-a-framework-for-managing-fraud-risks-in-federal-programs'
+    href: '#appendix-c---overview-of-gaos-a-framework-for-managing-fraud-risks-in-federal-programs'
   - text: Appendix D. Acronyms
-    href: '#appendix-d-acronyms'
+    href: '#appendix-d---acronyms'
 
 ---
 
@@ -119,7 +121,7 @@ These are key terms used throughout this document
 - [Digital Content Forgery](https://www.dhs.gov/sites/default/files/2023-06/23_0630_st_digital_forgeries_report_signed.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Digital content forgery technologies enable adversaries to create or manipulate digital audio, visual, or textual content, to distort information, undermine security and authority, and ultimately erode trust in each other and in our government.
 - [Facial Recognition](https://www.dhs.gov/publication/facial-recognition-technology){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Facial recognition technology is a contemporary security solution that automatically identifies and verifies the identity of an individual from a digital image or video frame. This technology can be compared to other biometric technologies, and used for a number of activities.
 - [FISMA](https://csrc.nist.gov/glossary/term/fisma){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A U.S. law requiring federal agencies to protect information and information systems.
-- [Generative Adversarial Networks](https://www.nist.gov/publications/generative-adversarial-network-performance-low-dimensional-settings){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A generative adversarial network is an artifi cial neural network with a distinctive training architecture, designed to create examples that faithfully reproduce a target distribution.
+- [Generative Adversarial Networks](https://www.nist.gov/publications/generative-adversarial-network-performance-low-dimensional-settings){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A generative adversarial network is an articial neural network with a distinctive training architecture, designed to create examples that faithfully reproduce a target distribution.
 - [Hardening](https://csrc.nist.gov/glossary/term/hardening){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - A process intended to eliminate a means of attack by patching vulnerabilities and turning off nonessential services.
 - [Spoofing](https://csrc.nist.gov/glossary/term/spoofing){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - The deliberate inducement of a user or resource to take incorrect action. Note: Impersonating, masquerading, piggybacking, and mimicking are forms of spoofing
 - [Iris Recognition](https://ucr.fbi.gov/fingerprints_biometrics/biometric-center-of-excellence/files/iris-recognition.pdf){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} - Iris recognition is the process of recognizing a person by analyzing the random pattern of the iris.
@@ -226,7 +228,7 @@ In today's interconnected digital world, identity fraud has become increasingly 
   - **Mechanism** - Fraudsters conduct in-depth research on a specific individual or organization to send highly personalized phishing emails. They bolster their credibility by using forged documents, such as fake invoices or official-looking correspondence, to convince the target to provide sensitive information or authorize fraudulent activities.
   - **Impact** - The success rate of spear phishing increases significantly when paired with forgery techniques, resulting in considerable financial and reputational damage to the targeted entities.
 - **Whaling with Deepfake Technology**
-  - **Mechanism** - High-profile individuals such as executives are targeted using whaling techniques combined with deepfake technology. Fraudsters create realistic deepfake videos or audio messages impersonating trusted colleagues or partners, persuading these high-level targets to disclose sensitive information or approve signifi cant financial transactions.
+  - **Mechanism** - High-profile individuals such as executives are targeted using whaling techniques combined with deepfake technology. Fraudsters create realistic deepfake videos or audio messages impersonating trusted colleagues or partners, persuading these high-level targets to disclose sensitive information or approve significant financial transactions.
   - **Impact** - The convincing nature of the deepfakes, coupled with the high stakes involved in whaling attacks, can lead to substantial financial losses and breaches of highly sensitive corporate data.
 - **SMS Phishing with Social Engineering**
   - **Mechanism** - Attackers use smishing to send deceptive SMS messages that appear to be from reputable sources, often claiming an urgent issue like a compromised bank account. They then employ social engineering tactics, such as creating a sense of urgency or fear, to manipulate victims into clicking on malicious links or calling phone numbers to provide personal information.
@@ -255,7 +257,7 @@ In today's interconnected digital world, identity fraud has become increasingly 
 - **Fraud Technique - Deepfake (synthetic media)**
   - **Scalability**
     - Image - Image generators are improving, becoming more customizable with better control and are easier to use.
-    - Audio - Improved fidelity of voice generation with less source material required; increasingly refi ned controls of auditory/vocal qualities, such as environment, accent, gender, emotion, etc.
+    - Audio - Improved fidelity of voice generation with less source material required; increasingly refined controls of auditory/vocal qualities, such as environment, accent, gender, emotion, etc.
     - Video - Longer-lasting and more photorealistic text-guided video generation & editing; more natural audio-driven deep fake video; full body video generation & reenactment
   - **Potential Impact**
     - Gaining access to critical resources by cloning senior executives or decision makers’ voices or video.
@@ -287,8 +289,8 @@ Analytics, developed during the DARPA SemaFor program, analyze the image and pro
 **Figure 2 - Image**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.">
-  <figcaption class="gsa-figcaption">Results for a SemaFor analytic on a single generated image, displaying high confi dence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure2-image.jpg" alt="Results for a SemaFor analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.">
+  <figcaption class="gsa-figcaption">Results for a SemaFor analytic on a single generated image, displaying high confidence by the Detection Score that the image is synthetically generated. A detailed description of the specific analytics’ purpose is highlighted above. This image required only a few seconds for analytic results, but the time required for analysis varies based on factors such as analysis hardware capabilities, number of images and analytics run per analysis.</figcaption>
 </figure>
 
 **Scenario 2 - Audio**
@@ -306,19 +308,19 @@ Analytics, developed during the DARPA SemaFor program, analyze the audio and pro
 
 OR
 
-Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics.
+Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics.
 
 **Figure 4 - Audio**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identifi ed as manipulated in the analysis.">
-  <figcaption class="gsa-figcaption">Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identifi ed as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identifi ed as manipulated in the analysis.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.">
+  <figcaption class="gsa-figcaption">Multiple analytics analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file analysis below, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.</figcaption>
 </figure>
 
 
 **Scenario 3 - Video**
 
-A short video file is submitted electronically for purposes of identifi cation or verifi cation of identity or location or association with another individual (either video or audio track potentially manipulated or generated).
+A short video file is submitted electronically for purposes of identification or verification of identity or location or association with another individual (either video or audio track potentially manipulated or generated).
 
 Analyst Task: Determine if video or voice/audio track is generated or manipulated; localize the manipulation if present.
 
@@ -327,8 +329,8 @@ Analytics process both the audio track and video tracks for semantic consistency
 **Figure 5: Video**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identifi ed as a deepfake with an analytic runtime of approximately two minutes.">
-  <figcaption class="gsa-figcaption">The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identifi ed as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.">
+  <figcaption class="gsa-figcaption">The analytic analysis, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
 </figure>
 
 **Deepfake Scenario Impacts for Image, Audio, Video**
@@ -352,7 +354,7 @@ The Identity Fraud Detection Steps framework provides a comprehensive guide for 
   <figcaption class="gsa-figcaption">This graphic is inspired by the GAO Fraud Framework and provides example timelines for implementing each step of the Identity Fraud Detection process.</figcaption>
 </figure>
 
-## Step 0 - Establishing a Resilient Infrastructure
+### Step 0 - Establishing a Resilient Infrastructure
 
 Before identity fraud incidents, including deepfake-related attacks, ever occur, it is critical for government agencies to proactively establish and maintain a resilient infrastructure. This preparatory phase ensures that the agency is well-positioned to detect, respond, and recover from security incidents swiftly and effectively. Building a resilient infrastructure involves comprehensive planning, implementation of security best practices, ongoing training, and continuous improvement of security measures.
 
@@ -367,7 +369,7 @@ Key initiatives in this phase include.
 **Robust Identity Verification and Access Management**
 
 - Adopt multi-factor authentication to add extra layers of security beyond simple password protection.
-- Use advanced identity verifi cation techniques, including biometrics, to authenticate users more securely.
+- Use advanced identity verification techniques, including biometrics, to authenticate users more securely.
 - Regularly audit and review access permissions to ensure they align with current roles and needs.
 
 **Comprehensive Security Training and Awareness**
@@ -393,30 +395,30 @@ Key initiatives in this phase include.
 - Foster a culture of collaboration between departments, ensuring that information about potential threats and security incidents is shared promptly.
 - Engage in information-sharing initiatives with other government agencies and private sector organizations to stay informed about new threats and best practices.
 
-By establishing a resilient infrastructure, government agencies can signifi cantly reduce the risk of identity fraud and ensure that they are prepared to handle incidents effi ciently. This foundational step lays the groundwork for effective detection, mitigation, recovery, and reporting of security breaches, maintaining public trust, and safeguarding sensitive information.
+By establishing a resilient infrastructure, government agencies can significantly reduce the risk of identity fraud and ensure that they are prepared to handle incidents efficiently. This foundational step lays the groundwork for effective detection, mitigation, recovery, and reporting of security breaches, maintaining public trust, and safeguarding sensitive information.
 
-## Step 1 - Detection of Identity Fraud
+### Step 1 - Detection of Identity Fraud
 
 **Methods of Detection**
 
 Detecting identity fraud within government agencies involves implementing comprehensive surveillance and monitoring techniques to identify unusual or unauthorized activities. This includes analyzing system access logs for anomalies, utilizing advanced analytics and machine learning tools to detect patterns indicative of fraud, and employing strong multi-factor authentication mechanisms to verify identities. The growing threat of deepfakes, means that government agencies should also incorporate deepfake detection tools that analyze video and audio for inconsistencies that may indicate manipulation. Establishing internal hotlines for reporting suspicious activities and regularly auditing identity management systems to ensure compliance with security protocols are also crucial steps. 
 
-Hardening processes also play a signifi cant role in detection, which may include.
+Hardening processes also play a significant role in detection, which may include.
 
 - Training staff to recognize potential deepfake content and report it promptly.
 - System hardening to reduce attack surfaces, such as disabling unnecessary services and ports.
 - Regular patch management to ensure that all systems are protected against known vulnerabilities.
 - Implementing strict access controls and privilege management to limit the potential for unauthorized access.
 
-## Step 2 - Mitigation of Identity Fraud
+### Step 2 - Mitigation of Identity Fraud
 
 **Methods of Mitigation**
 
 Upon detecting identity fraud, including incidents involving deepfakes, government agencies must take immediate and decisive actions to mitigate its impact. Key steps include immediately revoking access to compromised accounts, contacting relevant authorities and internal security teams, and notifying potentially affected individuals or departments. Agencies should deploy incident response teams to perform a comprehensive analysis of the breach and implement temporary measures such as suspending system components involved in the fraud. To further mitigate the impact, hardening processes must be enhanced, including.
 
 - Enforcing strong password policies, such as requiring complex passwords and regular changes.
-- Enhancing verifi cation processes and employing biometric authentication where possible.
-- Implementing AI-driven tools specifi cally designed to detect deepfake content.
+- Enhancing verification processes and employing biometric authentication where possible.
+- Implementing AI-driven tools specifically designed to detect deepfake content.
 - Conducting regular security training for employees to ensure they are aware of the latest security practices, including the risks posed by deepfakes.
 
 **Mitigation by Phase Structure**
@@ -436,21 +438,21 @@ Upon detecting identity fraud, including incidents involving deepfakes, governme
 - Notify Internal and External Stakeholders: Within the first 24 hours, ensuring communication with cybersecurity teams, law enforcement, and affected individuals.
 - System Hardening (Network Segmentation and Countermeasures): Deploy immediate measures within 48-72 hours. Utilize real-time video authentication tools to counter deepfakes rapidly.
 
-**Investigation** - Agencies should conduct a thorough and swift investigation to determine the extent and source of the identity fraud, with special attention paid to identifying deepfake usage. This phase involves gathering forensic evidence, interviewing involved personnel, and identifying vulnerabilities exploited during the fraud. Agencies should also implement hardening measures identifi ed during the investigation to prevent similar attacks in the future.
+**Investigation** - Agencies should conduct a thorough and swift investigation to determine the extent and source of the identity fraud, with special attention paid to identifying deepfake usage. This phase involves gathering forensic evidence, interviewing involved personnel, and identifying vulnerabilities exploited during the fraud. Agencies should also implement hardening measures identified during the investigation to prevent similar attacks in the future.
 
 **Timeframe - 1-2 weeks**
 
 - Conduct a Thorough Investigation: Begin as soon as the immediate response actions are underway. A detailed investigation should be completed within 7-14 days.
 - Gathering Forensic Evidence and Interviewing Personnel: First 3-5 days.
 - Identifying Vulnerabilities and Deepfake Analysis: Conducted concurrently, should be completed within 7-10 days.
-- Implement Immediate Hardening Measures: As vulnerabilities are identifi ed, begin implementing measures within the 1-2 week investigation period to prevent further exploitation.
+- Implement Immediate Hardening Measures: As vulnerabilities are identified, begin implementing measures within the 1-2 week investigation period to prevent further exploitation.
 
-**Long-term Protection** - Agencies should Implement comprehensive security upgrades based on the findings of the investigation. This includes updating identity verifi cation processes, enhancing cybersecurity measures, conducting regular system hardening, and continuously monitoring systems for potential threats such as deepfakes. Agencies should also develop and refi ne an Incident Response Plan to prepare for future incidents, incorporating deepfake detection and prevention strategies.
+**Long-term Protection** - Agencies should Implement comprehensive security upgrades based on the findings of the investigation. This includes updating identity verification processes, enhancing cybersecurity measures, conducting regular system hardening, and continuously monitoring systems for potential threats such as deepfakes. Agencies should also develop and refine an Incident Response Plan to prepare for future incidents, incorporating deepfake detection and prevention strategies.
 
 **Timeframe - 1-3 months for ongoing activities**
 
 - Comprehensive Security Upgrades
-  - Updating Identity Verifi cation Processes: Develop and implement within the first month.
+  - Updating Identity Verification Processes: Develop and implement within the first month.
   - Enhancing Cybersecurity Measures: Ongoing, with major upgrades implemented within 1-2 months.
 - Regular System Hardening and Continuous Monitoring
   - Initial Enhancements: Within the first month, followed by continuous monitoring and periodic reviews every 3-6 months.
@@ -460,36 +462,36 @@ Upon detecting identity fraud, including incidents involving deepfakes, governme
 - Deepfake Detection and Prevention Strategies
   - Deployment of Tools and Training: Initial deployment within 1 month, ongoing improvements as technology evolves.
 
-## Step 3 - Recovery From Identity Fraud
+### Step 3 - Recovery From Identity Fraud
 
-Recovering from identity fraud within government agencies is a detailed process that focuses on restoring trust and securing sensitive information. It is critical to document all instances of fraud, including those involving deepfakes, and provide comprehensive reports to relevant authorities and impacted parties. Agencies should review and correct any inaccuracies in their records, reissue identifi cation credentials as needed, and ensure that all compromised systems are secured and tested before resuming full operations. Continuous implementation of system hardening throughout the recovery phase, including regular security assessments and penetration testing, helps identify and address new vulnerabilities. Engagement with forensic experts and cybersecurity professionals during this phase will help to develop more resilient security frameworks. Leverage knowledge from the incident, including insights on deepfake threats, to bolster defenses and enhance the agency's overall security posture.
+Recovering from identity fraud within government agencies is a detailed process that focuses on restoring trust and securing sensitive information. It is critical to document all instances of fraud, including those involving deepfakes, and provide comprehensive reports to relevant authorities and impacted parties. Agencies should review and correct any inaccuracies in their records, reissue identification credentials as needed, and ensure that all compromised systems are secured and tested before resuming full operations. Continuous implementation of system hardening throughout the recovery phase, including regular security assessments and penetration testing, helps identify and address new vulnerabilities. Engagement with forensic experts and cybersecurity professionals during this phase will help to develop more resilient security frameworks. Leverage knowledge from the incident, including insights on deepfake threats, to bolster defenses and enhance the agency's overall security posture.
 
-## Step 4 - Reporting Identity Fraud
+### Step 4 - Reporting Identity Fraud
 
-Reporting identity fraud in government agencies requires a structured approach to ensure transparency and accountability. Agencies should promptly report incidents to federal authorities, such as the Offi ce of Inspector General and the Cybersecurity and Infrastructure Security Agency, to facilitate a coordinated response. It is essential to notify internal oversight bodies and provide detailed reports to senior government offi cials and relevant committees, particularly highlighting any use of deepfake technology in the fraud. Transparency with the public and stakeholders is paramount; issuing public statements and updates about the steps being taken to address and mitigate fraud, including measures against deepfakes, can help maintain public trust. Documenting the incident and response efforts, including the hardening processes implemented, can contribute to a repository of knowledge that aids in refi ning policies and improving future security measures.
+Reporting identity fraud in government agencies requires a structured approach to ensure transparency and accountability. Agencies should promptly report incidents to federal authorities, such as the Office of Inspector General and the Cybersecurity and Infrastructure Security Agency, to facilitate a coordinated response. It is essential to notify internal oversight bodies and provide detailed reports to senior government officials and relevant committees, particularly highlighting any use of deepfake technology in the fraud. Transparency with the public and stakeholders is paramount; issuing public statements and updates about the steps being taken to address and mitigate fraud, including measures against deepfakes, can help maintain public trust. Documenting the incident and response efforts, including the hardening processes implemented, can contribute to a repository of knowledge that aids in refining policies and improving future security measures.
 
-By incorporating awareness and defenses against deepfake threats into these structured steps, government agencies can signifi cantly enhance their ability to detect, mitigate, recover from, and report identity fraud, thereby safeguarding sensitive information and maintaining public trust.
+By incorporating awareness and defenses against deepfake threats into these structured steps, government agencies can significantly enhance their ability to detect, mitigate, recover from, and report identity fraud, thereby safeguarding sensitive information and maintaining public trust.
 
 **Reporting Deepfakes**
 
 There are multiple ways victims can report deepfake attacks. Victims of deepfakes could.
 
-- Contact law enforcement offi cials who could possibly help victims by conducting forensic investigations using police reports and evidence gathered from victims.
-- Contact the Federal Bureau of Investigations and report incidents to local FBI offi ces or the FBI’s 24/7 Cyber Watch at [CyWatch@fbi.gov](mailto:CyWatch@fbi.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
+- Contact law enforcement officials who could possibly help victims by conducting forensic investigations using police reports and evidence gathered from victims.
+- Contact the Federal Bureau of Investigations and report incidents to local FBI offices or the FBI’s 24/7 Cyber Watch at [CyWatch@fbi.gov](mailto:CyWatch@fbi.gov){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 - Utilize the Securities and Exchange Commission’s services to investigate financial crimes.
 - Report inappropriate content and abuse on social media platforms (i.e. Facebook, Twitter, Instagram, etc.) using the platforms’ reporting procedures.
 - If a victim is under 18 years of age, incidents can be reported to the National Center for Missing and Exploited Children via their cyber tip line at [https://report.cybertip.org](https://report.cybertip.org){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
 **Available Resources**
 
-According to Bobby Chesney and Danielle Citron authors of Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, victims may find it challenging taking the civil liability route if overwhelming evidence is unavailable, and even if a malign actor is identifi ed, it may be impossible to use civil remedies if the malign actor is outside of the United States or in a jurisdiction where local legal action is unsuccessful. However, there are several resources available for victims of online abuse that could possibly support them in other ways. Organizations that are dedicated to helping victims include but are not limited to.
+According to Bobby Chesney and Danielle Citron authors of Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security, victims may find it challenging taking the civil liability route if overwhelming evidence is unavailable, and even if a malign actor is identified, it may be impossible to use civil remedies if the malign actor is outside of the United States or in a jurisdiction where local legal action is unsuccessful. However, there are several resources available for victims of online abuse that could possibly support them in other ways. Organizations that are dedicated to helping victims include but are not limited to.
 
 - [Cyber Civil Rights Initiative](https://cybercivilrights.org/contact-us/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is an organization that provides a 24-hour crisis helpline, attorney referrals, and guides for removing images from social media platforms and other websites.
-- [EndTab](https://www.endtab.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is an organization that provides victims, including universities, law enforcement, nonprofi ts, judicial systems, healthcare networks, with resources for education and reporting abuse.
-- [The National Suicide Prevention Lifeline]https://988lifeline.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a national network of local crisis centers that provides free and confi dential emotional support for people in distress.
-- [Cybersmile]https://www.cybersmile.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profi t anti-bullying organization that provides expert support for victims of cyberbullying and online hate campaigns.
+- [EndTab](https://www.endtab.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is an organization that provides victims, including universities, law enforcement, nonprofits, judicial systems, healthcare networks, with resources for education and reporting abuse.
+- [The National Suicide Prevention Lifeline]https://988lifeline.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a national network of local crisis centers that provides free and confidential emotional support for people in distress.
+- [Cybersmile]https://www.cybersmile.org/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profit anti-bullying organization that provides expert support for victims of cyberbullying and online hate campaigns.
 - [Identitytheft.gov](http://identitytheft.gov/) is the federal government’s one-stop resource for identity theft victims.
-- [Withoutmyconsent.org](https://withoutmyconsent.org/resources/something-can-be-done-guide/evidence-preservation/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profi t organization that provides guides for preserving evidence that could be used in a civil suit.
+- [Withoutmyconsent.org](https://withoutmyconsent.org/resources/something-can-be-done-guide/evidence-preservation/){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a non-profit organization that provides guides for preserving evidence that could be used in a civil suit.
 - [Google’s Help Center](https://support.google.com/websearch/answer/9116649?hl=en&ref_topic=9173608){:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} a resource available via Google that enables victims to remove explicit fake imagery from Google searches.
   
 ## Conclusion
@@ -523,14 +525,14 @@ This playbook is a comprehensive guide for agencies to have a common understandi
 
 ### Identity Fraud Prevention Techniques
 
-- Identity Proofi ng
+- Identity Proofing
 - Data Sharing and Matching
 - Training and Awareness
 
 ### Critical Identity Fraud Techniques
 
 - Deepfake (video, audio, picture (face morphing, writing)
-- Forgery techniques (altered,falsifi ed, counterfeit)
+- Forgery techniques (altered,falsified, counterfeit)
 
 ### Detection Techniques
 
@@ -581,7 +583,7 @@ This playbook is a comprehensive guide for agencies to have a common understandi
   </tr>
   <tr>
     <th scope="row" headers="acronym">GAO</th>
-    <td scope="row" headers="definition">Government Accountability Offi ce</td>
+    <td scope="row" headers="definition">Government Accountability Office</td>
   </tr>
   <tr>
     <th scope="row" headers="acronym">GSA</th>
@@ -601,15 +603,15 @@ This playbook is a comprehensive guide for agencies to have a common understandi
   </tr>
   <tr>
     <th scope="row" headers="acronym">OGP</th>
-    <td scope="row" headers="definition">Offi ce of Government-wide Policy</td>
+    <td scope="row" headers="definition">Office of Government-wide Policy</td>
   </tr>
   <tr>
     <th scope="row" headers="acronym">OIG</th>
-    <td scope="row" headers="definition">Offi ce of Inspector General</td>
+    <td scope="row" headers="definition">Office of Inspector General</td>
   </tr>
   <tr>
     <th scope="row" headers="acronym">OMB</th>
-    <td scope="row" headers="definition">Offi ce of Management and Budget</td>
+    <td scope="row" headers="definition">Office of Management and Budget</td>
   </tr>
   <tr>
     <th scope="row" headers="acronym">SemaFor</th>
